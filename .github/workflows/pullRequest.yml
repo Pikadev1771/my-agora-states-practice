@@ -1,7 +1,9 @@
 name: Bare Minimum Requirements
 
+# 언제 job을 작동시킬지
 on: [push, pull_request]
 
+# 어떤 job을 할지
 jobs:
   test:
     runs-on: ubuntu-latest
